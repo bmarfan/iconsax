@@ -1873,13 +1873,13 @@
   .iconsax[icon-name="note-text"]:before {
     content: "\eb5c";
   }
-  .iconsax[icon-name="notification"]:before {
+  .iconsax[icon-name="bell"]:before {
     content: "\eb5d";
   }
   .iconsax[icon-name="notification-1"]:before {
     content: "\eb5e";
   }
-  .iconsax[icon-name="notification-bing"]:before {
+  .iconsax[icon-name="bell-bing"]:before {
     content: "\eb5f";
   }
   .iconsax[icon-name="notification-circle"]:before {
