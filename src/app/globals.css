@@ -13,9 +13,21 @@
     --foreground: #ededed;
   }
 }
-
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", serif;
+  font-weight: 300;
+}
+.bg-secondary{
+    background-color: #f43f5e!important;
+}
+.tablist button{
+    width: 400px;
+}
+code{
+    font-size: 11px!important;
+}
+.right-bar input{
+    padding: 5px;
 }
