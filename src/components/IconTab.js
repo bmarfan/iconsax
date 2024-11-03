@@ -41,7 +41,7 @@ const IconTab = () => {
                                 {
                                     value.search === undefined ? iconLinear.map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x}></i>
                                             </div>
@@ -52,7 +52,7 @@ const IconTab = () => {
 
                                     )) : filterList(iconLinear).map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x}></i>
                                             </div>
@@ -74,7 +74,7 @@ const IconTab = () => {
                             {
                                     value.search === undefined ? iconBroken.map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x} variant="broken"></i>
                                             </div>
@@ -85,7 +85,7 @@ const IconTab = () => {
 
                                     )) : filterList(iconBroken).map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x} variant="broken"></i>
                                             </div>
@@ -107,7 +107,7 @@ const IconTab = () => {
                             {
                                     value.search === undefined ? iconsBold.map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x} variant="bold"></i>
                                             </div>
@@ -118,7 +118,7 @@ const IconTab = () => {
 
                                     )) : filterList(iconsBold).map((x, index) => (
 
-                                        <article key={index} className="flex flex-col justify-center items-center w-[13.59%] p-5 bg-gray-50 rounded-lg border border-black/10">
+                                        <article key={index} className="flex flex-col justify-center items-center w-[13.58%] p-5 bg-gray-50 rounded-lg border border-black/10">
                                             <div className="text-[25px] text-gray-700">
                                                 <i className="iconsax" icon-name={x} variant="bold"></i>
                                             </div>
